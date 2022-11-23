@@ -165,24 +165,11 @@ public class MainActivity extends AppCompatActivity {
                                     patronus = pessoa.getString("patronus");
                                     actor = pessoa.getString("actor");
                                     lista.add(name);
-                                    arrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, lista);
+                                    arrayAdapter = new ArrayAdapter<>(getApplicationContext(), R.layout.simple_list, lista);
                                     listView.setAdapter(arrayAdapter);
 
                                 }
-//                                        mTextViewResult2.setText("Espécie: " +
-//                                                species + "\n" + "Gênero: " +
-//                                                gender + "\n" + "Casa: " +
-//                                                house + "\n" + "Aniversário: " +
-//                                                dateOfBirth + "\n" + "Ancestralidade: " +
-//                                                ancestry + "\n" + "Patrono: " +
-//                                                patronus + "\n" + "Ator: " +
-//                                                actor
-//                                        );
-//
-//                                        Target<Drawable> into = Glide.with(imageView2).load(uri).into(imageView2);
-//
 
-                                //System.out.print("Temos Atualmente nessa Casa " + pessoas.length() + " Personas");
 
                             } catch (JSONException e) {
                                 e.printStackTrace();
