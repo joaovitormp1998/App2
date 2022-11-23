@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:id="@+id/ic_gryffindor"
+        android:icon="@drawable/ic_sonser"
+        android:title="Grifinória"
+       />
+
+    <item
+        android:id="@+id/ic_sonser"
+        android:icon="@drawable/ic_sonser"
+        android:title="Sonserina" />
+
+    <item
+        android:id="@+id/ic_lufalufa"
+        android:enabled="true"
+        android:icon="@drawable/ic_lufalufa"
+        android:title="Lufa-Lufa"
+        android:visible="true" />
+
+
+    <item android:id="@+id/ic_ravenclow"
+        android:icon="@drawable/ic_ravenclaw"
+        android:title="Cornival"/>
+</menu>
