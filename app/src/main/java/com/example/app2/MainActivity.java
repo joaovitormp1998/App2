@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
 
     private  void request_api(String casa) {
         OkHttpClient client = new OkHttpClient();
-        String url = "https://hp-api.herokuapp.com/api/characters/house/" + casa;
+        String url = "https://hp-api.onrender.com/api/characters/house/" + casa;
         Request request = new Request.Builder()
                 .url(url)
                 .build();
