@@ -29,6 +29,7 @@
         <activity android:name=".HermioneActivity"></activity>
         <activity android:name=".DracoActivity"></activity>
         <activity android:name=".SeveroActivity"></activity>
+        <activity android:name=".CedricActivity"></activity>
     </application>
 
 </manifest>

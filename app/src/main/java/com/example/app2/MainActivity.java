@@ -93,6 +93,15 @@ public class MainActivity extends AppCompatActivity {
                         casa = "hufflepuff";
                         request_api(casa);
                         selectedFragment = new LufalufaFragment();
+                        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                        @Override
+                        public void onItemClick(AdapterView<?> adapterView, View view, int t, long id) {
+
+                            if (t == 0) {
+                                startActivity(new Intent(MainActivity.this, CedricActivity.class));
+                            }
+                        }
+                        });
                         break;
                     case R.id.ic_ravenclow:
                         casa = "ravenclaw";
